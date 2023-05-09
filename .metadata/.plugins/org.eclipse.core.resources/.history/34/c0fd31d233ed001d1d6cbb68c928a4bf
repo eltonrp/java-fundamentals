@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double x = 10.4555666;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite seu nome: ");
+		String nome = sc.next();
+		System.out.println("Olá " + nome + "!");
+		System.out.printf("%.2f", x);
+		sc.close();
+	}
+
+}

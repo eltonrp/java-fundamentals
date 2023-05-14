@@ -1,3 +1,7 @@
 /.metadata/
 **bin
 material-apoio
+.classpath
+.project
+.settings
+bkp

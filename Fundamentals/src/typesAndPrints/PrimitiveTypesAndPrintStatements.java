@@ -1,6 +1,6 @@
-package Fundamentals;
+package typesAndPrints;
 
-import java.util.Locale; //Needed import for Locale module
+import java.util.Locale; //Import needed for Locale module
 
 public class PrimitiveTypesAndPrintStatements {
 
@@ -12,7 +12,8 @@ public class PrimitiveTypesAndPrintStatements {
 		int intVar = 22; //integer variable declaration
 		float floatVar = 10.0f; //float variable declaration
 		double doubleVar = 11.0; //double variable declaration
-		String name = "This is a text!!"; //String variable declaration
+		String text = "This is a text!!"; //String variable declaration
+		System.out.println(text);
 		
 		//Print Statements
 		System.out.print("This is a regular print!! ");

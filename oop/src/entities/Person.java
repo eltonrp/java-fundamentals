@@ -14,18 +14,10 @@ public class Person {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public double getWeight() {
 		return weight;
 	}
 
-	public void setWeight(double weight) {
-		this.weight = weight;
-	}
-	
 	public double basalEnergeticSpent() {
 		
 		return (11.472 * getWeight() + 873.1);

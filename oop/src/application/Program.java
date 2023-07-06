@@ -16,16 +16,17 @@ public class Program {
 		
 		do {
 			
-			System.out.println("Insert your name: ");
-			String name = sc.next();
+			System.out.print("Insert your name: ");
+			String name = sc.next().toUpperCase();
 			
-			System.out.println("Insert your weight: ");
+			System.out.print("Insert your weight: ");
 			double weight = sc.nextDouble();
 			
 			Person person = new Person(name, weight);
 			
 			System.out.println("Name: " + person.getName());
-			System.out.printf("Weight: %.2f%n", person.getWeight());
+			System.out.printf("Weight: %.2f", person.getWeight());
+			System.out.println(" kg");
 			System.out.printf("Basal Energetic Spent: %.2f%n", person.basalEnergeticSpent());
 			System.out.printf("Total Energetic Spent: %.2f%n", person.totalEnergeticSpent());
 			System.out.println("Insert new person? (Y/N): ");

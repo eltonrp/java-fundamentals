@@ -1,3 +1,5 @@
+package edu.elton.basics;
+
 public class FirstClasses {
   public static void main(String[] args) {
     String primeiroNome = "Jon";

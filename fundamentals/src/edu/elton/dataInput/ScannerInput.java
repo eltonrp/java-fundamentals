@@ -1,4 +1,4 @@
-package dataInput;
+package edu.elton.dataInput;
 
 import java.util.Locale; //Needed import for Locale module
 import java.util.Scanner; //module import for data input

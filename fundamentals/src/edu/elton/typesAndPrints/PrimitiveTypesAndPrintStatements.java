@@ -1,4 +1,4 @@
-package typesAndPrints;
+package edu.elton.typesAndPrints;
 
 import java.util.Locale; //Import needed for Locale module
 

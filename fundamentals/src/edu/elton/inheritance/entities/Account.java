@@ -1,4 +1,4 @@
-package entities;
+package edu.elton.inheritance.entities;
 
 public class Account {
 	private Integer number;

@@ -1,4 +1,4 @@
-package entities;
+package edu.elton.inheritance.entities;
 
 public class BusinessAccount extends Account {
 	

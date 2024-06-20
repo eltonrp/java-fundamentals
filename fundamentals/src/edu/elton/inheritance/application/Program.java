@@ -1,6 +1,6 @@
-package application;
+package edu.elton.inheritance.application;
 
-import entities.BusinessAccount;
+import edu.elton.inheritance.entities.BusinessAccount;
 
 public class Program {
 

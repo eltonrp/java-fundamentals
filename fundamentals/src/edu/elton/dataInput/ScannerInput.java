@@ -10,6 +10,9 @@ public class ScannerInput {
 		Locale.setDefault(Locale.US); //US number default definition
 
 		Scanner sc = new Scanner(System.in); //instantiate object for data input
+
+		//Outra forma de instanciar o Scanner e Locale
+		//Scanner scanner = new Scanner(System.in).useLocale(Locale.US)
 		
 		System.out.print("What is your name: ");
 		
